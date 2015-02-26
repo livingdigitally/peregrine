@@ -21,7 +21,7 @@ class planning_data {
  
     // Check that the data item being added exists. 
     // If not, write warning message to log and return
-    $data_item_const = "planning_data::".$data_item;
+    $data_item_const = "self::".$data_item;
     if (!defined($data_item_const)) {
       $this->writeLog (__FUNCTION__, "WARNING - unknown data item: $data_item");
       return false;

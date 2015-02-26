@@ -80,3 +80,79 @@ body {
   color: red;
 }
 
+/* Main page container */
+#container {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+/* Navigation Styling */
+#navigation {
+  height: 140px;
+  background-color: white;
+  padding: 5px;
+}
+
+#navigation #logo {
+  float: left;
+  width: 400px;
+  padding-left: 30px;
+}
+
+#navigation #menu {
+  float: right;
+  padding-right: 30px;
+  padding-top: 58px;
+}
+
+/* Filter Styling */
+#filter {
+  width: 200px;
+  background-color:rgba(129,127,143,.3);
+  height: 100%;
+  margin-left: 10px;
+}
+
+#filter p {
+  color: white;
+  text-align: center;
+}
+
+/* Data table positioning and styling */
+#data-table {
+  position: absolute;
+  top: 165px;
+  left: 230px;
+  font-size: 80%;
+}
+
+#data-table table {
+  border-collapse: collapse;
+}
+
+#data-table table, th, td {
+  border: 1px solid #817f8f;
+}
+
+#data-table th {
+  text-transform: uppercase;
+  width: 150px;
+  color: white;
+  background-color: #817f8f;
+}
+
+#data-table td {
+  text-align: center;
+}
+
+#data-table tr:nth-child(even) {
+  background: #f6f6f6;
+}
+
+#data-table tr:nth-child(odd) {
+  background: #d9d9dc;
+}
+
+

@@ -18,6 +18,7 @@ class configuration {
   const CLASSES_DIR = "classes";
   const CSS_DIR     = "css";
   const IMAGES_DIR  = "images";
+  const JS_DIR      = "js";
  
   // Define image assests
   private $logo = "peregrine-planning-logo.png";

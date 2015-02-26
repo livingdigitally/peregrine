@@ -107,8 +107,30 @@ body {
   padding-top: 58px;
 }
 
+#navigation #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navigation #menu li {
+  float: left;
+}
+
+#navigation #menu a {
+  display: block;
+  width: 80px;
+  text-decoration: none;
+  color: #817f8f;
+}
+
+
+
 /* Filter Styling */
 #filter {
+  position: absolute;
+  top: 165px;
   width: 200px;
   background-color:rgba(129,127,143,.3);
   height: 100%;
@@ -124,7 +146,7 @@ body {
 #data-table {
   position: absolute;
   top: 165px;
-  left: 230px;
+  left: 220px;
   font-size: 80%;
 }
 
@@ -153,6 +175,11 @@ body {
 
 #data-table tr:nth-child(odd) {
   background: #d9d9dc;
+}
+
+#data-table a:link, a:visited {
+  color: black;
+  text-decoration: none;  
 }
 
 

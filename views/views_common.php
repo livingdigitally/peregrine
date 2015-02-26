@@ -27,7 +27,12 @@ function viewsCommonNavigation() {
   $logo = "http://" . $configuration->getURL('IMAGES_DIR') . DIRECTORY_SEPARATOR . $configuration->getLogo();
   echo "<div id='navigation'>";
   echo "<div id='logo'><img src=$logo width='100%%'></div>";
-  echo "<div id='menu'>Logout</div>";
+  echo "<div id='menu'>";
+  echo "<ul>";
+  echo "<li><a href='?import'>Import</a></li>";
+  echo "<li><a href='index.php'>Logout</a></li>";
+  echo "</ul>";
+  echo "</div>";
   echo "</div>";
 }
 

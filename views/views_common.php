@@ -2,8 +2,8 @@
 
 function viewsCommonHeader() {
   global $configuration;
-  $style  = "http://" . $configuration->getURL('CSS_DIR') . DIRECTORY_SEPARATOR . "style.css";
-  $sorttable_js  = "http://" . $configuration->getURL('JS_DIR') . DIRECTORY_SEPARATOR . "sorttable.js";
+  $style  = "http://" . $configuration->getURL('CSS_DIR') . "/"  . "style.css";
+  $sorttable_js  = "http://" . $configuration->getURL('JS_DIR') . "/" . "sorttable.js";
 
   echo "<!DOCTYPE html>";
   echo "<html>";
@@ -24,7 +24,7 @@ function viewsCommonFooter() {
 function viewsCommonNavigation() {
   global $configuration;
 
-  $logo = "http://" . $configuration->getURL('IMAGES_DIR') . DIRECTORY_SEPARATOR . $configuration->getLogo();
+  $logo = "http://" . $configuration->getURL('IMAGES_DIR') . "/" . $configuration->getLogo();
   echo "<div id='navigation'>";
   echo "<div id='logo'><img src=$logo width='100%%'></div>";
   echo "<div id='menu'>";

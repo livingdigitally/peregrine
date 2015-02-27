@@ -6,7 +6,7 @@ function viewsLoginDisplayForm($invalid_credentials) {
   $invalid_text = ($invalid_credentials ? "Invalid username or password" : "<br>");
 
   viewsCommonHeader();
-  $logo = "http://" . $configuration->getURL('IMAGES_DIR') . DIRECTORY_SEPARATOR . $configuration->getLogo();
+  $logo = "http://" . $configuration->getURL('IMAGES_DIR') . "/" . $configuration->getLogo();
   echo "<div class='login_form'>";
   echo "<img src=$logo>";
   echo "<p>Please login to your account below</p>";

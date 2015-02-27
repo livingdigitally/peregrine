@@ -33,7 +33,7 @@ class configuration {
   // Directory & URL functions
   //
   private function getRootURL() { 
-    return $_SERVER['HTTP_HOST']. DIRECTORY_SEPARATOR . self::ROOT_DIR . DIRECTORY_SEPARATOR;
+    return $_SERVER['HTTP_HOST']. "/" . self::ROOT_DIR . "/";
   }
 
   public function getDir ($dir_name) { 

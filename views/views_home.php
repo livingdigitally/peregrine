@@ -59,7 +59,7 @@ function viewsHomeDataTable() {
 
   $dataTable->finalise();
 
-  echo "<dvi id='data-table'>";
+  echo "<div id='data-table'>";
   $dataTable->display();
   echo "</div>";
 }

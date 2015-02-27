@@ -103,7 +103,7 @@ body {
 
 #navigation #menu {
   float: right;
-  padding-right: 30px;
+  padding-right: 0px;
   padding-top: 58px;
 }
 
@@ -148,6 +148,7 @@ body {
   top: 165px;
   left: 220px;
   font-size: 80%;
+  margin-right:20px;
 }
 
 #data-table table {
